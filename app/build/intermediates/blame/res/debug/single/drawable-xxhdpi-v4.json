@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_action_bluetooth.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-xxhdpi/ic_action_bluetooth.png"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/nxp_big.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-xxhdpi/nxp_big.png"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_action_refresh.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-xxhdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_action_about.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-xxhdpi/ic_action_about.png"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_action_remove.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-xxhdpi/ic_action_remove.png"
+    }
+]

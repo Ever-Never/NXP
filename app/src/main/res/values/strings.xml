@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Connected Device Demo</string>
+    <string name="myservices_name">My Services</string>
+    <string name="payment_name">Payments</string>
+    <string name="hospitality_name">Hospitality</string>
+    <string name="ticketing_name">Ticketing</string>
+    <string name="loyalty_name">Loyalty</string>
+    <string name="info_card_name">Info card</string>
+    <string name="mymifare_name">MyMIFARE</string>
+    <string name="mydevices_name">My Devices</string>
+    
+    <string name="action_about">About</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_refresh">Refresh</string>
+    
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+    
+    <!-- BLE Connection -->
+    <string name="bt_conn_established">Bluetooth connection established</string>
+    <string name="bt_conn_established_inact">Bluetooth connection established. Please notice that the connection will be released after a period of inactivity</string>
+
+    <!-- My Cards -->
+    <string name="cards_list_empty">No cards available. Please click on \"Add new service\" button</string>
+    
+    <!-- Menu Options -->
+    <string name="menu_login">Login</string>
+    <string name="menu_info_user">User Info</string>
+    <string name="menu_cards">My Services</string>
+    <string name="menu_devices">My Devices</string>
+    
+    <string name="menu_login_desc">Register in the system to manage your Credit Cards</string>
+    <string name="menu_info_user_desc">Read your user info and log out from the system</string>
+    <string name="menu_cards_desc">Create and manage services</string>
+    <string name="menu_devices_desc">Registered connected devices</string>
+    
+    <!-- About Activity -->
+    <string name="copyright_1">Copyright &#169; 2006&#8211;2016, NXP Semiconductors</string>
+    <string name="copyright_2">Secure Connections for a Smarter World</string>
+    <string name="apk_version">APP Version: %s</string>
+    <string name="fw_version">FW Version: %s</string>
+    <string name="fw_version_not_connected">FW Version: Not connected</string>
+    <string name="fw_version_not_available">FW Version: Not available</string>
+    <string name="fw_version_operating">FW Version: Operating</string>
+    <string name="phone_us">Phone us: 1&#8211;800&#8211;627&#8211;8372</string>
+    <string name="dialog_reset_title">RESET WARNING !!</string>
+    <string name="dialog_reset_msg">RESET FUNCTIONALITY WILL DELETE ALL THE CARDS DOWNLOADED IN THIS DEVICE AND THERE IS NO WAY TO RECOVER THEM. ARE YOU SURE YOU WANT TO ERASE THE WHOLE SECURE ELEMENT?</string>
+    
+    <!-- User -->
+    <string name="enter_login">Enter your name</string>
+    <string name="text_logout">Profile Info</string>
+    
+    <string name="user_info">User Information</string>
+    <string name="user_name">Name</string>
+    <string name="user_surname">Surname</string>
+    <string name="user_address">Address</string>
+    <string name="user_email">Email</string>
+    <string name="user_password">Password</string>
+    <string name="user_id">ID</string>
+    
+    <string name="user_name_info">Name: </string>
+    <string name="user_surname_info">Surname: </string>
+    <string name="user_address_info">Address: </string>
+    <string name="user_email_info">Email: </string>
+    <string name="user_password_info">Password: </string>
+    <string name="user_id_info">ID: </string>
+    
+    <!-- Credit Card -->
+    <string name="card_info">Credit Card Information</string>
+    <string name="card_number">Card Number: </string>
+    <string name="card_name">Card Name: </string>
+    <string name="card_cvc">CVC: </string>
+    <string name="card_exp_date">Expiration Date: </string>
+    <string name="card_exp_date_short">Exp Date > </string>
+    
+    <string name="card_cless_active">Card activated</string>
+    <string name="card_cless_not_active">Press to activate card</string>
+    <string name="card_cless_activating">Activation in progress &#8230;</string>
+    <string name="card_cless_deactivating">Deactivation in progress &#8230;</string>
+    
+    <string name="card_operating">Ongoing Operation</string>
+    
+    <string name="block_ok">Remote card %s completed</string>
+    <string name="block_error">Remote card %s failed</string>
+    
+    <string name="delete_card">Delete Card</string>
+    <string name="lock_card">Block Card</string>
+    <string name="unlock_card">Unblock Card</string>
+    
+    <!-- Personalize Card -->
+    <string name="perso_options">Select an option to personalize the payment application</string>
+    <string name="perso_option_default">Use default profiles</string>
+    <string name="perso_option_params">Define your card values</string>
+    <string name="perso_select_profile">Select option to create a card</string>
+    <string name="perso_button_text">Select an option</string>
+    <string name="perso_scan_text">Scan credit card from a photo</string>
+    
+    <string name="perso_ok">Remote personalization completed</string>
+    <string name="perso_error">Remote personalization failed</string>
+    <string name="server_perso_error">Server Error. Remote personalization failed</string>
+    
+    <string name="profile_name">Name:</string>
+    <string name="profile_pan">PAN: </string>
+    <string name="profile_exp">Exp. Date:</string>
+	<!-- <string name="profile_pin">PIN: </string> -->    
+    <string name="profile_cvc">CVC: </string>
+    <string name="profile_id">Prof. ID: </string>
+       
+    <!-- Add Credit Card -->
+    <string name="card_tap">Tap your contactless credit card\nto fill in the fields </string>
+    <string name="card_default">Make this Credit Card default </string>
+    <string name="card_max_number">The maximum number of payment cards has been reached</string>
+    
+    <string name="internet_error">Connection error</string>
+	<string name="internet_perso_msg">You need Internet connection for the online pesonalization</string>
+	<string name="internet_lock_msg">You need Internet connection to block / unblock cards</string>
+	
+	<string name="init_create_card">Card creation</string>
+	<string name="init_create_card_msg">The creation of the card is about to start. You will receive a notification after the card will be approved and available</string>
+    
+	<string name="close_app">Closing app</string>
+	<string name="close_app_msg">Please do not close the app while an operation is being completed</string>
+	
+    <!-- Info Credit Cards -->
+    <string name="my_cards">My Credit Cards</string>
+    <string name="my_cards_creating">Creating card &#8230;</string>
+    <string name="my_cards_personalizing">Personalizing card &#8230;</string>
+    <string name="my_cards_deleting">Deleting card &#8230;</string>
+    <string name="my_cards_failed">Creation failed, please remove &#8230;</string>
+    <string name="my_cards_perso_failed">Server Perso failed, please remove &#8230;</string>
+    <string name="my_cards_not_perso">Card not Personalized &#8230;</string>
+    <string name="my_cards_reading">Reading operation in progress</string>
+    
+    <!-- Transactions -->
+    <string name="my_transactions">My Transactions</string>
+    <string name="tx_card">Card</string>
+    <string name="tx_date">Date</string>
+    <string name="tx_amount">Amount</string>
+    <string name="tx_cryptogram">Cryptogram</string>
+           
+    <!-- Buttons -->
+    <string name="button_more_services">Add new service </string>
+    <string name="button_create_card">Create card </string>
+    <string name="button_personalize_card">Personalize card </string>
+    <string name="button_digitize_services">Digitize service </string>
+    <string name="button_read_txs">Read transaction logs </string>
+    <string name="text_login">My Preferences </string>
+    <string name="text_logout_window">My Info</string>
+    <string name="button_login">Log In </string>
+    <string name="button_logout">Log Out </string>
+    <string name="button_privacy">Private &amp; TERMS </string>
+    <string name="button_new_user">New user </string>
+    <string name="button_register_user">Register user </string>
+    <string name="button_logout_user">Log out </string>
+    
+    <!-- Notifications -->
+    <string name="notif_card_created_title">Card created </string>
+    <string name="notif_card_created_msg">Your card is ready </string>
+    
+    <string name="notif_card_creating_title">Creating card </string>
+    <string name="notif_card_creating_msg">Your card will be ready soon</string>
+    
+    <string name="notif_card_deleted_title">Card deleted </string>
+    <string name="notif_card_deleted_msg">Your card has been deleted </string>
+    
+    <string name="notif_card_deleting_title">Deleting card </string>
+    <string name="notif_card_deleting_msg">Your card is being deleted</string>
+    
+    <!-- Activate AID -->
+    <string name="applet_activated">Payment application activated</string>
+    <string name="applet_deactivated">Payment application deactivated</string>
+    <string name="error_applet_activated">Error activating payment application</string>
+    
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for devices</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="start_scanning">Click to start scanning</string>
+    <string name="none_found">No devices found</string>
+    <string name="discovered_devices">Discovered devices</string>
+    <string name="button_scan">Scan for devices</string>
+    
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="title_version">BLE Qpp V0.97.3</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="qpp_support">Supported</string>
+    <string name="qpp_not_support">Not supported</string>
+    
+    <!-- Device List -->
+    <string name="device_name">Device name:</string>
+    <string name="device_address">Device address:</string>
+    <string name="device_services">Available services:</string>
+    <string name="device_press">Press device to connect</string>
+    <string name="device_list_empty">No devices registered</string>
+    <string name="device_description_image"> Image with NXP logo </string>
+    
+    <!-- Services -->
+    <string name="service_payments">Payment</string>
+    <string name="service_hospitality">Hospitality</string>
+    <string name="service_loyalty">Loyalty</string>
+    <string name="service_ticketing">Ticketing</string>
+    <string name="service_others">Other Services</string>
+    <string name="service_payin">PayIn</string>
+    <string name="service_mymifare">MyMIFARE</string>
+    
+    <!-- Spinner months -->
+    <string-array name="array_months">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <!-- Spinner months -->
+    <string-array name="array_years">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+    
+    
+    <!-- HYATT -->
+    <string name="my_reservations">My reservations</string>
+    <string name="select_reservation">Select reservation to get your hotel card</string>
+    <string name="select_card">Select card to create</string>
+    <string name="hotel">Hotel: </string>
+    
+    <string name="room">Room: </string>
+    <string name="price">Price: </string>
+    <string name="arrival">Arrival: </string>
+    <string name="departure">Departure: </string>
+    <string name="status">Status: </string>
+    
+    <string name="room_type">Double room</string>
+    <string name="room_price">89.95 $</string>
+    
+    <!-- Transport -->
+    <string name="select_cards">Transport tickets available</string>
+    <string name="my_transport_description">Select the transport card to create</string>
+    <string name="number_of_tickets">Not available</string>
+    <string name="city">Taipei </string>
+    <string name="ticket_price">Price</string>
+    
+    <string name="card_created">Card created</string>
+    <string name="error_card_created">Error creating card</string>
+    
+    <string name="card_deleted">Card deleted</string>
+    <string name="error_card_deleted">Error deleting card</string>
+    
+    <string name="card_activated">Card activated</string>
+    <string name="error_card_activated">Error activating card</string>
+    
+    <string name="card_deactivated">Card deactivated</string>
+    <string name="error_card_deactivated">Error deactivating card</string>
+    
+    <string name="error_card_read">Error reading MIFARE data</string>
+    <string name="error_card_read_trips">Error occurred reading trips</string>
+    <string name="error_card_read_points">Error occurred reading points</string>
+    
+    <string name="dialog_creating">Creating Virtual Card</string>
+    <string name="dialog_deleting">Deleting Virtual Card</string>
+    <string name="dialog_activating">Activating Virtual Card</string>
+    <string name="dialog_deactivating">Deactivating Virtual Card</string>
+    <string name="dialog_mdac">Populating MDAC</string>
+    <string name="dialog_loading">Loading applet</string>
+    <string name="dialog_reading">Reading MIFARE Data</string>
+    <string name="dialog_resetting">Resetting device</string>
+    <string name="dialog_waiting">This operation may take some time &#8230;</string>
+    
+    <string name="load_applet_success">Load Applet completed</string>
+    <string name="load_applet_failed">Load Applet failed</string>
+    
+    <string name="purchase">Purchase</string>
+    <string name="card_purchase">card</string>
+    <string name="sure">Are your sure?</string>
+    
+    
+    <!-- Loyalty -->
+    <string name="my_loyalty">Loyalty programs</string>
+    <string name="my_loyalty_description">Select a loyalty card to create</string>
+    
+    <!-- 7-Eleven -->
+    <string name="image">Image</string>
+
+    <string name="delete_vc">Delete Virtual Card</string>
+    <string name="activate_vc">Activate Virtual Card</string>
+    <string name="deactivate_vc">Deactivate Virtual Card</string>
+    
+    <string name="get_card">Get your card on your phone ..</string>
+    <string name="get_double_points">And get double points!!</string>
+    <string name="your_points">Your current points</string>
+    <string name="init_points">100 points</string>
+    <string name="discount">Gather 500 points and get 10$ off</string>
+    <string name="perso">PERSONALIZE CARD</string>
+    
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="welcome">Welcome, </string>
+    <string name="register_1">Register and get </string>
+    <string name="register_2">100 points for free !!</string>
+    
+    <string name="points">points</string>
+    <string name="points_updated">Points Updated</string>
+    
+    <string name="seven_eleven_card">7-Eleven loyalty card</string>
+
+    <string name="dialog_personalize">Personalize Card</string>
+    <string name="dialog_personalize_msg">Do you want to proceed with the online personalization of your card?</string>
+    
+    <string name="create_card">Please create your loyalty card</string>
+    <string name="button_create_sevel_eleven_card">CREATE YOUR LOYALTY CARD</string>
+    
+    <string name="trans_succeed">Transaction successful</string>
+    <string name="trans_failed">Transaction failed</string>
+    
+    <string name="register_title">Thanks for registering</string>
+    <string name="register_msg">You received 100 points !!</string>
+        
+    <string name="comm_server">Communicating with server &#8230;</string>
+    
+    <!-- MyMifare App -->
+    <string name="vcCommand">Virtual Card Create command</string>
+    <string name="vcPerso">Personalization Parameters</string>
+    <string name="vcPublicMdac">Public MDAC Value</string>
+    <string name="vcPrivateMdac">Private MDAC Value</string>
+    <string name="vcAddAndUpdateMdacCommand">addAndUpdateMDAC Command</string>
+    <string name="vcReadMifareDataCommand">ReadMifareData Command</string>
+    <string name="vcMifareDataByte">Virtual Card MIFARE data (BYTE)</string>
+    <string name="vcMifareDataAscii">Virtual Card MIFARE data (ASCII)</string>
+    
+    <string name="getstatus_vc">Get Status Virtual Card</string>
+    <string name="addandupdatemdac_vc">Add and Update MDAC</string>
+
+    <string name="button_ext">Next</string>
+    <string name="button_create">Create</string>
+    <string name="button_return">Return</string>
+    <string name="button_mdac">Update MDAC</string>
+    
+    <string name="myVcs">My MIFARE Virtual Cards</string>
+    
+    <string name="vcName">Card name: </string>
+    <string name="vcSelectCard">Select MIFARE Card to create</string>
+    <string name="vcIcon">Select an icon for your Virtual Card</string>
+    
+    <string name="selectVcConf">Select MIFARE card creation configuration</string>
+    <string name="selectVcType">Select MIFARE card type</string>
+    <string name="selectVcUid">Select MIFARE card UID option</string>
+    <string name="selectVcKeyset">Indicate MIFARE card initial keyset</string>
+    
+    <string name="vcConf">MIFARE card creation configuration</string>
+    <string name="vcType">MIFARE card type</string>
+    <string name="vcUid">MIFARE card UID option</string>
+    <string name="vcDesfCrypto">MIFARE DESFire cryptography</string>
+    <string name="vcKeyset">MIFARE card initial key set</string>
+    <string name="vcDesfApps">MIFARE DESFire Apps AID</string>
+    
+    <string name="vcTapIcon">Tap the Icon to select picture from your device</string>
+    
+    <string name="vcKeysetDefault">Default keyset</string>
+    <string name="vcKeysetEncrypt">Encrypt keyset</string>
+    <string name="vcKeyVersion">Key Version</string>
+    
+    <string name="vcClassicKeysetDefaultValue">FFFFFFFFFFFFFF078069FFFFFFFFFFFF</string>
+    <string name="vcClassicKeysetAccessValue">AAAAAAAAAAAAFF078069BBBBBBBBBBBB</string>
+    
+    <string name="vc3DESAESDesfireKeysetDefaultValue">00000000000000000000000000000000</string>
+    <string name="vc3K3DESDesfireKeysetDefaultValue">000000000000000000000000000000000000000000000000</string>
+
+    <string name="vcClassicKeyDefault">FFFFFFFFFFFFFF</string>
+    
+    <string name="vcClassicKeysetInfoDialogTitle">MIFARE Classic Keyset info</string>
+    <string name="vcClassicKeysetInfoDialogMsg">MIFARE Keyset should be defined as KeyA|AC|KeyB\n\nKeyset example: FFFFFFFFFFFFFF078069FFFFFFFFFFFF</string>
+    
+    <string name="vcAccessCond">Define access conditions</string>
+    <string name="vcSectorAccessCond">Select MIFARE Sector access conditions</string>
+    <string name="vcSectBlocks">Define accessible sectors and blocks</string>
+    
+    <string name="select_sector">Select available sector</string>
+    <string name="sector">Sector</string>
+    <string name="select_blocks">Select available blocks</string>
+    <string name="blocks">Blocks</string>
+    
+    <!-- PayIn -->
+    <string name="payin_create_card">Click on the card to create</string>
+</resources>

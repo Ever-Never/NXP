@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/payin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_top_margin" >
+    
+    <include 
+        android:id="@+id/ll_conn_device"
+        layout="@layout/device_info"/>
+
+    <TextView
+        android:id="@+id/text_payin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/payin_create_card"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@id/ll_conn_device" />
+
+    <ImageView
+        android:id="@+id/card_valencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_payin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/valencia" />
+
+    <ImageView
+        android:id="@+id/card_vigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_valencia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/vigo" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

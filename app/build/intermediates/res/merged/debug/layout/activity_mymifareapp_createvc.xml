@@ -1,0 +1,267 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_top_margin" >
+    
+    <include 
+        android:id="@+id/ll_conn_device"
+        layout="@layout/device_info"/>
+
+    <LinearLayout
+        android:id="@+id/layotuButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/button_return"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/image_background"
+            android:text="@string/button_return"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button_create"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/image_background"
+            android:text="@string/button_create"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutParams"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_above="@id/layotuButtons" 
+        	android:layout_below="@id/ll_conn_device" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vcName" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/vcName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:layout_centerVertical="true" />                
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/vcType" />
+
+            <Spinner
+                android:id="@+id/vcType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/vcTypeOptions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vcUid" />
+
+            <Spinner
+                android:id="@+id/vcUidClassic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/vcUidClassicOptions" />
+
+            <Spinner
+                android:id="@+id/vcUidDESFire"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/vcUidDESFireOptions"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textDesfCrypto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vcDesfCrypto"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/layoutDesfCrypto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:weightSum="1" >
+
+                <Spinner
+                    android:id="@+id/vcDesfCrypto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.5"
+                    android:entries="@array/vcDesfCrypto" />
+
+                <EditText
+                    android:id="@+id/vcKeyVersion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.5"
+                    android:digits="0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,A,B,C,D,E,F"
+                    android:hint="@string/vcKeyVersion"
+                    android:inputType="textVisiblePassword"
+                    android:maxLength="2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:text="@string/vcKeyset" />
+
+                <ImageView
+                    android:id="@+id/imageKeysetInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/information" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vcKeyset"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:digits="0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,A,B,C,D,E,F"
+                android:inputType="textVisiblePassword"
+                android:maxLength="52"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/vcKeysetDefault"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vcKeysetDefault"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lDesfApps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vcDesfApps" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editDesfAids"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:digits="0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,A,B,C,D,E,F"
+                        android:inputType="textVisiblePassword"
+                        android:maxLength="06" />
+
+                    <ImageView
+                        android:id="@+id/imageDesfAids"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/add" />
+
+                    <TextView
+                        android:id="@+id/textDesfAids"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    <!--
+    <TextView
+        android:id="@+id/vcCreateCmdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutParams"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/vcCommand" />
+
+    <TextView
+        android:id="@+id/vcCreateCmd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vcCreateCmdText"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="60dp" />
+    -->
+
+
+    <!--
+    <TextView
+        android:id="@+id/vcCreatePersoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/vcCreateCmd"
+        android:text="@string/vcPerso" />
+
+    <TextView
+        android:id="@+id/vcCreatePerso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vcCreatePersoText"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="60dp" />
+    -->
+
+</RelativeLayout>

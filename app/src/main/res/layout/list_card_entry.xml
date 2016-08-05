@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/card_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout 
+        android:id="@+id/layout_card_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/card_fav" >
+
+        <ImageView
+            android:id="@+id/card_icon"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:adjustViewBounds="true" />
+        
+        <ImageView
+            android:id="@+id/card_locked"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/locked"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/card_name"
+        style="@style/vc_entry_text"
+        android:layout_marginLeft="12dp" />
+
+    <TextView
+        android:id="@+id/card_number"
+        style="@style/vc_entry_text"
+        android:layout_below="@id/card_name"
+        android:layout_marginLeft="12dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/card_exp"
+        style="@style/vc_entry_text"
+        android:layout_below="@id/card_number"
+        android:layout_marginLeft="12dp"
+        android:singleLine="true" />
+</RelativeLayout>
+
+<!-- 
+
+<ImageView
+            android:id="@+id/card_icon"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:adjustViewBounds="true" />
+
+ -->

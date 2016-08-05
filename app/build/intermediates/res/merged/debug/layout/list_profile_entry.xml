@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp" >
+    
+ <!--    <RadioButton 
+        android:id="@+id/profile_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"/>
+  --> 
+        
+    <ImageView
+        android:id="@+id/profile_card"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"/>
+    <!--android:layout_toRightOf="@id/profile_radio" -->
+    
+    <TextView
+        android:id="@+id/profile_fixed_name"
+        style="@style/profile_entry_text"
+        android:layout_marginLeft="12dp"
+        android:text="@string/profile_name" 
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/profile_name"
+        style="@style/profile_entry_text"
+        android:layout_marginLeft="75dp"
+        android:singleLine="true" 
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/profile_fixed_pan"
+        style="@style/profile_entry_text"
+        android:layout_below="@id/profile_name"
+        android:layout_marginLeft="12dp"
+        android:text="@string/profile_pan" 
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/profile_pan"
+        style="@style/profile_entry_text"
+        android:layout_below="@id/profile_name"
+        android:layout_marginLeft="75dp"
+        android:singleLine="true" 
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/profile_fixed_exp"
+        style="@style/profile_entry_text"
+        android:layout_below="@id/profile_pan"
+        android:layout_marginLeft="12dp"
+        android:text="@string/profile_exp" 
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/profile_exp"
+        style="@style/profile_entry_text"
+        android:layout_below="@id/profile_pan"
+        android:layout_marginLeft="75dp"
+        android:singleLine="true" 
+        android:textColor="@color/text_color"/>  
+
+ <!--  <TextView
+        style="@style/profile_entry_text"
+        android:layout_below="@id/profile_exp"
+        android:layout_marginLeft="12dp"
+        android:text="@string/profile_pin" />
+-->   
+
+    <TextView
+        android:id="@+id/profile_pin"
+        style="@style/profile_entry_text"
+        android:layout_below="@id/profile_exp"
+        android:layout_marginLeft="75dp"
+        android:singleLine="true" 
+        android:textColor="@color/text_color"/>
+</RelativeLayout>

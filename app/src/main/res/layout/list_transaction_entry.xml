@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp" >
+    
+    <ImageView
+        android:id="@+id/card_icon"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        style="@style/tx_entry_text"
+        android:layout_marginLeft="12dp"
+        android:text="@string/tx_card" />
+
+    <TextView
+        android:id="@+id/card_name"
+        style="@style/tx_entry_text"
+        android:layout_marginLeft="75dp"
+        android:singleLine="true" />
+
+    
+    <TextView
+        style="@style/tx_entry_text"
+        android:layout_below="@id/card_name"
+        android:layout_marginLeft="12dp"
+        android:text="@string/tx_date" />
+
+    <TextView
+        android:id="@+id/tx_date"
+        style="@style/tx_entry_text"
+        android:layout_below="@id/card_name"
+        android:layout_marginLeft="75dp"
+        android:singleLine="true" />
+
+    <TextView
+        style="@style/tx_entry_text"
+        android:layout_below="@id/tx_date"
+        android:layout_marginLeft="12dp"
+        android:text="@string/tx_amount" />
+
+    <TextView
+        android:id="@+id/tx_amount"
+        style="@style/tx_entry_text"
+        android:layout_below="@id/tx_date"
+        android:layout_marginLeft="75dp"
+        android:singleLine="true" />  
+</RelativeLayout>

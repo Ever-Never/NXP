@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_months">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="array_years">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="vcAcParsOptions">
+        <item>Accessible by a Wallet and a Parser</item>
+        <item>Accessible by a Parser only</item>              
+    </string-array>
+    <string-array name="vcAcParsValues">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+    <string-array name="vcAcUvOptions">
+        <item>UV not required</item>
+        <item>UV required</item>              
+    </string-array>
+    <string-array name="vcAcUvValues">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+    <string-array name="vcConfOptions">
+        <item>VC is not pre-personalized with an Applet and not remotely managed</item>
+        <item>VC is pre-personalized with an applet</item>
+        <item>VC is remotely managed by SP  SM is installed in a SP SD</item>
+        <item>VC is remotely managed by SP and pre-personalized with an Applet</item>
+    </string-array>
+    <string-array name="vcConfValues">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+    </string-array>
+    <string-array name="vcDesfCrypto">
+        <item>(3)DES</item>
+        <item>3K3DES</item>
+        <item>AES</item>               
+    </string-array>
+    <string-array name="vcDesfCryptoValues">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+    </string-array>
+    <string-array name="vcIconOptions">
+        <item>Select Card</item>
+        <item>Loyalty Card</item>
+        <item>Transport Card</item>
+        <item>Access Card</item>
+    </string-array>
+    <string-array name="vcSectAcOptions">
+        <item>Read Access</item>               
+    </string-array>
+    <string-array name="vcSectAcValues">
+        <item>01</item>        
+    </string-array>
+    <string-array name="vcTypeOptions">
+        <item>MIFARE Classic 1kB</item>
+        <item>MIFARE Classic 4kB</item>
+        <item>MIFARE DESFire 2kB</item>
+        <item>MIFARE DESFire 4kB</item>
+        <item>MIFARE DESFire 8kB</item>
+    </string-array>
+    <string-array name="vcTypeValues">
+        <item>0101</item>
+        <item>0104</item>
+        <item>0202</item>
+        <item>0204</item>
+        <item>0208</item>
+    </string-array>
+    <string-array name="vcUidClassicOptions">
+        <item>7 Byte Master UID</item>
+        <item>4 byte Random FnUID</item>
+        <item>4 byte FnUID inherited from the 7 byte Master UID</item>      
+    </string-array>
+    <string-array name="vcUidDESFireOptions">
+        <item>7 Byte Master UID</item>   
+    </string-array>
+    <string-array name="vcUidValues">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+    </string-array>
+    <item name="background" type="color">#F5F5F5</item>
+    <item name="blue" type="color">#2ECCFA</item>
+    <item name="green" type="color">#008061</item>
+    <item name="payin" type="color">#E9AF30</item>
+    <item name="text_color" type="color">#000000</item>
+    <declare-styleable name="MyGallery"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <declare-styleable name="TextViewPlus"><attr format="string" name="customFont"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_bottom_margin">12dp</dimen>
+    <dimen name="activity_vertical_top_margin">4dp</dimen>
+    <string name="action_about">About</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="activate_vc">Activate Virtual Card</string>
+    <string name="addandupdatemdac_vc">Add and Update MDAC</string>
+    <string name="apk_version">APP Version: %s</string>
+    <string name="app_name">Connected Device Demo</string>
+    <string name="applet_activated">Payment application activated</string>
+    <string name="applet_deactivated">Payment application deactivated</string>
+    <string name="arrival">Arrival: </string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="block_error">Remote card %s failed</string>
+    <string name="block_ok">Remote card %s completed</string>
+    <string name="blocks">Blocks</string>
+    <string name="bt_conn_established">Bluetooth connection established</string>
+    <string name="bt_conn_established_inact">Bluetooth connection established. Please notice that the connection will be released after a period of inactivity</string>
+    <string name="button_create">Create</string>
+    <string name="button_create_card">Create card </string>
+    <string name="button_create_sevel_eleven_card">CREATE YOUR LOYALTY CARD</string>
+    <string name="button_digitize_services">Digitize service </string>
+    <string name="button_ext">Next</string>
+    <string name="button_login">Log In </string>
+    <string name="button_logout">Log Out </string>
+    <string name="button_logout_user">Log out </string>
+    <string name="button_mdac">Update MDAC</string>
+    <string name="button_more_services">Add new service </string>
+    <string name="button_new_user">New user </string>
+    <string name="button_personalize_card">Personalize card </string>
+    <string name="button_privacy">Private &amp; TERMS </string>
+    <string name="button_read_txs">Read transaction logs </string>
+    <string name="button_register_user">Register user </string>
+    <string name="button_return">Return</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="card_activated">Card activated</string>
+    <string name="card_cless_activating">Activation in progress …</string>
+    <string name="card_cless_active">Card activated</string>
+    <string name="card_cless_deactivating">Deactivation in progress …</string>
+    <string name="card_cless_not_active">Press to activate card</string>
+    <string name="card_created">Card created</string>
+    <string name="card_cvc">CVC: </string>
+    <string name="card_deactivated">Card deactivated</string>
+    <string name="card_default">Make this Credit Card default </string>
+    <string name="card_deleted">Card deleted</string>
+    <string name="card_exp_date">Expiration Date: </string>
+    <string name="card_exp_date_short">Exp Date > </string>
+    <string name="card_info">Credit Card Information</string>
+    <string name="card_max_number">The maximum number of payment cards has been reached</string>
+    <string name="card_name">Card Name: </string>
+    <string name="card_number">Card Number: </string>
+    <string name="card_operating">Ongoing Operation</string>
+    <string name="card_purchase">card</string>
+    <string name="card_tap">Tap your contactless credit card\nto fill in the fields </string>
+    <string name="cards_list_empty">No cards available. Please click on \"Add new service\" button</string>
+    <string name="city">Taipei </string>
+    <string name="close_app">Closing app</string>
+    <string name="close_app_msg">Please do not close the app while an operation is being completed</string>
+    <string name="comm_server">Communicating with server …</string>
+    <string name="copyright_1">Copyright © 2006–2016, NXP Semiconductors</string>
+    <string name="copyright_2">Secure Connections for a Smarter World</string>
+    <string name="create_card">Please create your loyalty card</string>
+    <string name="deactivate_vc">Deactivate Virtual Card</string>
+    <string name="delete_card">Delete Card</string>
+    <string name="delete_vc">Delete Virtual Card</string>
+    <string name="departure">Departure: </string>
+    <string name="device_address">Device address:</string>
+    <string name="device_description_image"> Image with NXP logo </string>
+    <string name="device_list_empty">No devices registered</string>
+    <string name="device_name">Device name:</string>
+    <string name="device_press">Press device to connect</string>
+    <string name="device_services">Available services:</string>
+    <string name="dialog_activating">Activating Virtual Card</string>
+    <string name="dialog_creating">Creating Virtual Card</string>
+    <string name="dialog_deactivating">Deactivating Virtual Card</string>
+    <string name="dialog_deleting">Deleting Virtual Card</string>
+    <string name="dialog_loading">Loading applet</string>
+    <string name="dialog_mdac">Populating MDAC</string>
+    <string name="dialog_personalize">Personalize Card</string>
+    <string name="dialog_personalize_msg">Do you want to proceed with the online personalization of your card?</string>
+    <string name="dialog_reading">Reading MIFARE Data</string>
+    <string name="dialog_reset_msg">RESET FUNCTIONALITY WILL DELETE ALL THE CARDS DOWNLOADED IN THIS DEVICE AND THERE IS NO WAY TO RECOVER THEM. ARE YOU SURE YOU WANT TO ERASE THE WHOLE SECURE ELEMENT?</string>
+    <string name="dialog_reset_title">RESET WARNING !!</string>
+    <string name="dialog_resetting">Resetting device</string>
+    <string name="dialog_waiting">This operation may take some time …</string>
+    <string name="discount">Gather 500 points and get 10$ off</string>
+    <string name="discovered_devices">Discovered devices</string>
+    <string name="enter_login">Enter your name</string>
+    <string name="error_applet_activated">Error activating payment application</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="error_card_activated">Error activating card</string>
+    <string name="error_card_created">Error creating card</string>
+    <string name="error_card_deactivated">Error deactivating card</string>
+    <string name="error_card_deleted">Error deleting card</string>
+    <string name="error_card_read">Error reading MIFARE data</string>
+    <string name="error_card_read_points">Error occurred reading points</string>
+    <string name="error_card_read_trips">Error occurred reading trips</string>
+    <string name="first_name">First Name</string>
+    <string name="fw_version">FW Version: %s</string>
+    <string name="fw_version_not_available">FW Version: Not available</string>
+    <string name="fw_version_not_connected">FW Version: Not connected</string>
+    <string name="fw_version_operating">FW Version: Operating</string>
+    <string name="get_card">Get your card on your phone ..</string>
+    <string name="get_double_points">And get double points!!</string>
+    <string name="getstatus_vc">Get Status Virtual Card</string>
+    <string name="hospitality_name">Hospitality</string>
+    <string name="hotel">Hotel: </string>
+    <string name="image">Image</string>
+    <string name="info_card_name">Info card</string>
+    <string name="init_create_card">Card creation</string>
+    <string name="init_create_card_msg">The creation of the card is about to start. You will receive a notification after the card will be approved and available</string>
+    <string name="init_points">100 points</string>
+    <string name="internet_error">Connection error</string>
+    <string name="internet_lock_msg">You need Internet connection to block / unblock cards</string>
+    <string name="internet_perso_msg">You need Internet connection for the online pesonalization</string>
+    <string name="last_name">Last Name</string>
+    <string name="load_applet_failed">Load Applet failed</string>
+    <string name="load_applet_success">Load Applet completed</string>
+    <string name="lock_card">Block Card</string>
+    <string name="loyalty_name">Loyalty</string>
+    <string name="menu_cards">My Services</string>
+    <string name="menu_cards_desc">Create and manage services</string>
+    <string name="menu_devices">My Devices</string>
+    <string name="menu_devices_desc">Registered connected devices</string>
+    <string name="menu_info_user">User Info</string>
+    <string name="menu_info_user_desc">Read your user info and log out from the system</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_login_desc">Register in the system to manage your Credit Cards</string>
+    <string name="myVcs">My MIFARE Virtual Cards</string>
+    <string name="my_cards">My Credit Cards</string>
+    <string name="my_cards_creating">Creating card …</string>
+    <string name="my_cards_deleting">Deleting card …</string>
+    <string name="my_cards_failed">Creation failed, please remove …</string>
+    <string name="my_cards_not_perso">Card not Personalized …</string>
+    <string name="my_cards_perso_failed">Server Perso failed, please remove …</string>
+    <string name="my_cards_personalizing">Personalizing card …</string>
+    <string name="my_cards_reading">Reading operation in progress</string>
+    <string name="my_loyalty">Loyalty programs</string>
+    <string name="my_loyalty_description">Select a loyalty card to create</string>
+    <string name="my_reservations">My reservations</string>
+    <string name="my_transactions">My Transactions</string>
+    <string name="my_transport_description">Select the transport card to create</string>
+    <string name="mydevices_name">My Devices</string>
+    <string name="mymifare_name">MyMIFARE</string>
+    <string name="myservices_name">My Services</string>
+    <string name="no">NO</string>
+    <string name="none_found">No devices found</string>
+    <string name="notif_card_created_msg">Your card is ready </string>
+    <string name="notif_card_created_title">Card created </string>
+    <string name="notif_card_creating_msg">Your card will be ready soon</string>
+    <string name="notif_card_creating_title">Creating card </string>
+    <string name="notif_card_deleted_msg">Your card has been deleted </string>
+    <string name="notif_card_deleted_title">Card deleted </string>
+    <string name="notif_card_deleting_msg">Your card is being deleted</string>
+    <string name="notif_card_deleting_title">Deleting card </string>
+    <string name="number_of_tickets">Not available</string>
+    <string name="ok">OK</string>
+    <string name="payin_create_card">Click on the card to create</string>
+    <string name="payment_name">Payments</string>
+    <string name="perso">PERSONALIZE CARD</string>
+    <string name="perso_button_text">Select an option</string>
+    <string name="perso_error">Remote personalization failed</string>
+    <string name="perso_ok">Remote personalization completed</string>
+    <string name="perso_option_default">Use default profiles</string>
+    <string name="perso_option_params">Define your card values</string>
+    <string name="perso_options">Select an option to personalize the payment application</string>
+    <string name="perso_scan_text">Scan credit card from a photo</string>
+    <string name="perso_select_profile">Select option to create a card</string>
+    <string name="phone_us">Phone us: 1–800–627–8372</string>
+    <string name="points">points</string>
+    <string name="points_updated">Points Updated</string>
+    <string name="price">Price: </string>
+    <string name="profile_cvc">CVC: </string>
+    <string name="profile_exp">Exp. Date:</string>
+    <string name="profile_id">Prof. ID: </string>
+    <string name="profile_name">Name:</string>
+    <string name="profile_pan">PAN: </string>
+    <string name="purchase">Purchase</string>
+    <string name="qpp_not_support">Not supported</string>
+    <string name="qpp_support">Supported</string>
+    <string name="register_1">Register and get </string>
+    <string name="register_2">100 points for free !!</string>
+    <string name="register_msg">You received 100 points !!</string>
+    <string name="register_title">Thanks for registering</string>
+    <string name="room">Room: </string>
+    <string name="room_price">89.95 $</string>
+    <string name="room_type">Double room</string>
+    <string name="scanning">Scanning for devices</string>
+    <string name="sector">Sector</string>
+    <string name="selectVcConf">Select MIFARE card creation configuration</string>
+    <string name="selectVcKeyset">Indicate MIFARE card initial keyset</string>
+    <string name="selectVcType">Select MIFARE card type</string>
+    <string name="selectVcUid">Select MIFARE card UID option</string>
+    <string name="select_blocks">Select available blocks</string>
+    <string name="select_card">Select card to create</string>
+    <string name="select_cards">Transport tickets available</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="select_reservation">Select reservation to get your hotel card</string>
+    <string name="select_sector">Select available sector</string>
+    <string name="server_perso_error">Server Error. Remote personalization failed</string>
+    <string name="service_hospitality">Hospitality</string>
+    <string name="service_loyalty">Loyalty</string>
+    <string name="service_mymifare">MyMIFARE</string>
+    <string name="service_others">Other Services</string>
+    <string name="service_payin">PayIn</string>
+    <string name="service_payments">Payment</string>
+    <string name="service_ticketing">Ticketing</string>
+    <string name="seven_eleven_card">7-Eleven loyalty card</string>
+    <string name="start_scanning">Click to start scanning</string>
+    <string name="status">Status: </string>
+    <string name="sure">Are your sure?</string>
+    <string name="text_login">My Preferences </string>
+    <string name="text_logout">Profile Info</string>
+    <string name="text_logout_window">My Info</string>
+    <string name="ticket_price">Price</string>
+    <string name="ticketing_name">Ticketing</string>
+    <string name="title_version">BLE Qpp V0.97.3</string>
+    <string name="trans_failed">Transaction failed</string>
+    <string name="trans_succeed">Transaction successful</string>
+    <string name="tx_amount">Amount</string>
+    <string name="tx_card">Card</string>
+    <string name="tx_cryptogram">Cryptogram</string>
+    <string name="tx_date">Date</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unlock_card">Unblock Card</string>
+    <string name="user_address">Address</string>
+    <string name="user_address_info">Address: </string>
+    <string name="user_email">Email</string>
+    <string name="user_email_info">Email: </string>
+    <string name="user_id">ID</string>
+    <string name="user_id_info">ID: </string>
+    <string name="user_info">User Information</string>
+    <string name="user_name">Name</string>
+    <string name="user_name_info">Name: </string>
+    <string name="user_password">Password</string>
+    <string name="user_password_info">Password: </string>
+    <string name="user_surname">Surname</string>
+    <string name="user_surname_info">Surname: </string>
+    <string name="vc3DESAESDesfireKeysetDefaultValue">00000000000000000000000000000000</string>
+    <string name="vc3K3DESDesfireKeysetDefaultValue">000000000000000000000000000000000000000000000000</string>
+    <string name="vcAccessCond">Define access conditions</string>
+    <string name="vcAddAndUpdateMdacCommand">addAndUpdateMDAC Command</string>
+    <string name="vcClassicKeyDefault">FFFFFFFFFFFFFF</string>
+    <string name="vcClassicKeysetAccessValue">AAAAAAAAAAAAFF078069BBBBBBBBBBBB</string>
+    <string name="vcClassicKeysetDefaultValue">FFFFFFFFFFFFFF078069FFFFFFFFFFFF</string>
+    <string name="vcClassicKeysetInfoDialogMsg">MIFARE Keyset should be defined as KeyA|AC|KeyB\n\nKeyset example: FFFFFFFFFFFFFF078069FFFFFFFFFFFF</string>
+    <string name="vcClassicKeysetInfoDialogTitle">MIFARE Classic Keyset info</string>
+    <string name="vcCommand">Virtual Card Create command</string>
+    <string name="vcConf">MIFARE card creation configuration</string>
+    <string name="vcDesfApps">MIFARE DESFire Apps AID</string>
+    <string name="vcDesfCrypto">MIFARE DESFire cryptography</string>
+    <string name="vcIcon">Select an icon for your Virtual Card</string>
+    <string name="vcKeyVersion">Key Version</string>
+    <string name="vcKeyset">MIFARE card initial key set</string>
+    <string name="vcKeysetDefault">Default keyset</string>
+    <string name="vcKeysetEncrypt">Encrypt keyset</string>
+    <string name="vcMifareDataAscii">Virtual Card MIFARE data (ASCII)</string>
+    <string name="vcMifareDataByte">Virtual Card MIFARE data (BYTE)</string>
+    <string name="vcName">Card name: </string>
+    <string name="vcPerso">Personalization Parameters</string>
+    <string name="vcPrivateMdac">Private MDAC Value</string>
+    <string name="vcPublicMdac">Public MDAC Value</string>
+    <string name="vcReadMifareDataCommand">ReadMifareData Command</string>
+    <string name="vcSectBlocks">Define accessible sectors and blocks</string>
+    <string name="vcSectorAccessCond">Select MIFARE Sector access conditions</string>
+    <string name="vcSelectCard">Select MIFARE Card to create</string>
+    <string name="vcTapIcon">Tap the Icon to select picture from your device</string>
+    <string name="vcType">MIFARE card type</string>
+    <string name="vcUid">MIFARE card UID option</string>
+    <string name="welcome">Welcome, </string>
+    <string name="yes">YES</string>
+    <string name="your_points">Your current points</string>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppDialogTheme" parent="Theme.CustomDialog">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Theme.CustomDialog" parent="android:style/Theme.Holo.Light.Dialog">
+	    <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="act_entry_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="copyright_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="credit_card_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="device_entry_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_toRightOf">@id/device_icon</item>
+    </style>
+    <style name="home_icon_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="home_icon_text_desc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="logout_data_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="logout_name_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="profile_entry_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_toRightOf">@id/profile_card</item>
+        <item name="android:layout_marginLeft">12dp</item>
+    </style>
+    <style name="select_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="select_text_heading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="tx_entry_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_toRightOf">@id/card_icon</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="vc_entry_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_toRightOf">@id/layout_card_icon</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="vc_hotel_entry_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_toRightOf">@id/layout_card_icon</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="vc_hotel_entry_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_toRightOf">@id/hotel_icon</item>
+    </style>
+    <style name="vc_loyalty_entry_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="vc_purchase_city">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="vc_purchase_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

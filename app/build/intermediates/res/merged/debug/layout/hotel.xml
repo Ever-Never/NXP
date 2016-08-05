@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <ImageView
+        android:id="@+id/hotel_icon"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/hotel_abudhabi" />
+
+    <TextView
+        android:id="@+id/hotel_hotel_title"
+        style="@style/vc_hotel_entry_title_text"
+        android:text="@string/hotel"/>
+
+    <TextView
+        android:id="@+id/hotel_hotel"
+        style="@style/vc_hotel_entry_text"
+        android:layout_toRightOf="@+id/hotel_departure_title" />
+
+    <TextView
+        android:id="@+id/hotel_reservation_title"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_below="@id/hotel_hotel_title"
+        android:text="@string/room" />
+
+    <TextView
+        android:id="@+id/hotel_reservation"
+        style="@style/vc_hotel_entry_text"
+        android:layout_below="@id/hotel_hotel_title"
+        android:layout_toRightOf="@+id/hotel_departure_title"
+        android:text="@string/room_type" />
+
+    <TextView
+        android:id="@+id/hotel_price_title"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_below="@id/hotel_reservation_title"
+        android:text="@string/price" />
+
+    <TextView
+        android:id="@+id/hotel_price"
+        style="@style/vc_hotel_entry_text"
+        android:layout_below="@id/hotel_reservation_title"
+        android:layout_toRightOf="@+id/hotel_departure_title"
+        android:text="@string/room_price" />
+
+    <TextView
+        android:id="@+id/hotel_arrival_title"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_below="@id/hotel_price_title"
+        android:text="@string/arrival" />
+
+    <TextView
+        android:id="@+id/hotel_arrival"
+        style="@style/vc_hotel_entry_text"
+        android:layout_below="@id/hotel_price_title"
+        android:layout_toRightOf="@+id/hotel_departure_title" />
+
+    <TextView
+        android:id="@+id/hotel_departure_title"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_below="@id/hotel_arrival_title"
+        android:text="@string/departure" />
+
+    <TextView
+        android:id="@+id/hotel_departure"
+        style="@style/vc_hotel_entry_text"
+        android:layout_below="@id/hotel_arrival_title"
+        android:layout_toRightOf="@id/hotel_departure_title"
+        android:singleLine="true" />
+
+</RelativeLayout>

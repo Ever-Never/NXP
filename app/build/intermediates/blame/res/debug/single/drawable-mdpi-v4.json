@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_about.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-mdpi/ic_action_about.png"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_remove.png",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/drawable-mdpi/ic_action_remove.png"
+    }
+]

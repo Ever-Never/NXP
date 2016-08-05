@@ -1,0 +1,5 @@
+# JSBL Private Key – S parameter (32-byte)
+S=9b9086ef15b6586f866ff88fd2d0c7393728b01ab5e09e8128754d0e2dbf5d17
+# JSBL Public Key  – W parameter (32-byte x and y)
+W.x=60ad3fd1dad108ec4c758e246434667106c2722063fd58725d6ed3c3e220f678
+W.y=143f99f0b14d5dcfdfdd427e683d4c350fb69f9d1ef61b286128461e91b6a108

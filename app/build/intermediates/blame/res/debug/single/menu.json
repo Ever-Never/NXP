@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/menu/card.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/menu/card.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/menu/main.xml"
+    }
+]

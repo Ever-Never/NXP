@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nxp.nxpwalletconndev"
+    android:versionCode="1"
+    android:versionName="1.33" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.AboutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.PaymentCardActivity"
+            android:label="@string/payment_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.LoginActivity"
+            android:label="@string/text_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.LogoutActivity"
+            android:label="@string/text_logout_window"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.AddUserActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.InfoUserActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.MyDevicesActivity"
+            android:label="@string/mydevices_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.MyCardsActivity"
+            android:label="@string/myservices_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.InfoCardActivity"
+            android:label="@string/info_card_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.LoyaltyActivity"
+            android:label="@string/loyalty_name"
+            android:screenOrientation="portrait" />
+
+        <!-- HYATT -->
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.HyattActivity"
+            android:label="@string/hospitality_name"
+            android:screenOrientation="portrait" />
+
+        <!-- Transport -->
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.TransportKioskActivity"
+            android:label="@string/ticketing_name"
+            android:screenOrientation="portrait" />
+
+        <!-- 7-Eleven -->
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.SevenElevenActivity"
+            android:label="@string/loyalty_name"
+            android:screenOrientation="portrait" />
+
+        <!-- PayIn -->
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.PayInActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- MyMifareApp -->
+        <activity
+            android:name="com.nxp.nxpwalletconndev.activities.MyMifareCreateVCActivity"
+            android:label="@string/mymifare_name"
+            android:screenOrientation="portrait" />
+
+        <!-- Activity that discovers Bluetooth peers -->
+        <activity
+            android:name="com.nxp.ssdp.btclient.BluetoothDiscovery"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDialogTheme" />
+    </application>
+
+</manifest>

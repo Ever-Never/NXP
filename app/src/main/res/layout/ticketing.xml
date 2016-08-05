@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <ImageView
+        android:id="@+id/city_icon"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/boston" />
+
+    <TextView
+        android:id="@+id/city_name"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_alignTop="@+id/city_icon"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/city_icon"
+        android:text="@string/city"/>
+
+    <TextView
+        android:id="@+id/TextView01"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_alignTop="@+id/city_name"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/city_icon"
+        android:text="No. Tickets:"/>
+
+    <TextView
+        android:id="@+id/TextView02"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_alignTop="@+id/TextView01"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/city_icon"
+        android:text="Price:"/>
+    
+    <TextView
+        android:id="@+id/number_of_tickets"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="@string/number_of_tickets"/>
+
+    <TextView
+        android:id="@+id/ticket_price"
+        style="@style/vc_hotel_entry_title_text"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_toRightOf="@+id/TextView02"
+        android:text="@string/ticket_price"/>
+  
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingBottom="@dimen/activity_vertical_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_top_margin" >
+
+    <include
+        android:id="@+id/ll_conn_device"
+        layout="@layout/device_info" />
+
+    <TextView
+        android:id="@+id/text_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_conn_device"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Reset the device"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_reset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="140dp"
+        android:src="@drawable/reset" />
+
+    <TextView
+        android:id="@+id/textApkVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_reset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/apk_version"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textFwVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textApkVersion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fw_version"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_developed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textFwVersion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Developed by:"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/mk_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_developed"
+        android:adjustViewBounds="true"
+        android:maxWidth="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo_mk" />
+
+    <TextView
+        android:id="@+id/textJCOPVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+       	android:textColor="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="TextView" />
+
+</RelativeLayout>
+
+
+<!--
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/copyright_1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="15dp"
+            android:text="@string/copyright_2"
+            android:textColor="@android:color/black" />
+
+    -->

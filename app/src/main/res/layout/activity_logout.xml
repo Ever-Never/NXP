@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_top_margin" >
+
+    <include
+        android:id="@+id/ll_conn_device"
+        layout="@layout/device_info" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/select_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_conn_device"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_logout"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/image_background"
+        android:text="@string/button_logout"
+        android:textColor="@android:color/black"
+        android:visibility="visible" />
+
+    <!--
+    <Button
+      	  android:id="@+id/create_card"
+      	  android:layout_width="fill_parent"
+      	  android:layout_height="wrap_content"
+       	  android:layout_alignParentBottom="true"
+     	  android:layout_marginTop="1dp"
+     	  android:background="@drawable/image_background"
+     	  android:text="@string/button_more_services"
+     	  android:textColor="@android:color/black"
+     	  android:visibility="visible" />
+    -->
+
+    <TextView
+        android:id="@+id/text_user_surname"
+        style="@style/logout_name_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/logout"
+        android:layout_alignTop="@+id/text_user_name"
+        android:layout_marginTop="25dp"
+        android:text="Surname: " />
+
+    <TextView
+        android:id="@+id/user_surname"
+        style="@style/logout_data_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_user_surname"
+        android:layout_alignTop="@+id/text_user_surname"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="0dp"
+        android:hint="@string/user_surname" />
+
+    <TextView
+        android:id="@+id/text_user_name"
+        style="@style/logout_name_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/logout"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginTop="50dp"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/user_name"
+        style="@style/logout_data_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_user_name"
+        android:layout_alignTop="@+id/text_user_name"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="0dp"
+        android:hint="@string/user_name" />
+
+</RelativeLayout>

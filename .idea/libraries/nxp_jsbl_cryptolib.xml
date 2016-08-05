@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nxp-jsbl-cryptolib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/nxp-jsbl-cryptolib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,86 @@
+<resources>
+	<string-array name="vcConfOptions">
+        <item>VC is not pre-personalized with an Applet and not remotely managed</item>
+        <item>VC is pre-personalized with an applet</item>
+        <item>VC is remotely managed by SP  SM is installed in a SP SD</item>
+        <item>VC is remotely managed by SP and pre-personalized with an Applet</item>
+    </string-array>
+    <string-array name="vcConfValues">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+    </string-array>
+    
+    <string-array name="vcTypeOptions">
+        <item>MIFARE Classic 1kB</item>
+        <item>MIFARE Classic 4kB</item>
+        <item>MIFARE DESFire 2kB</item>
+        <item>MIFARE DESFire 4kB</item>
+        <item>MIFARE DESFire 8kB</item>
+    </string-array>
+    <string-array name="vcTypeValues">
+        <item>0101</item>
+        <item>0104</item>
+        <item>0202</item>
+        <item>0204</item>
+        <item>0208</item>
+    </string-array>
+    
+    <string-array name="vcUidClassicOptions">
+        <item>7 Byte Master UID</item>
+        <item>4 byte Random FnUID</item>
+        <item>4 byte FnUID inherited from the 7 byte Master UID</item>      
+    </string-array>
+     <string-array name="vcUidDESFireOptions">
+        <item>7 Byte Master UID</item>   
+    </string-array>
+    <string-array name="vcUidValues">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+    </string-array>
+
+    <string-array name="vcAcUvOptions">
+        <item>UV not required</item>
+        <item>UV required</item>              
+    </string-array>
+    <string-array name="vcAcUvValues">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+    
+    <string-array name="vcAcParsOptions">
+        <item>Accessible by a Wallet and a Parser</item>
+        <item>Accessible by a Parser only</item>              
+    </string-array>
+    <string-array name="vcAcParsValues">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+    
+    <string-array name="vcSectAcOptions">
+        <item>Read Access</item>               
+    </string-array>
+    <string-array name="vcSectAcValues">
+        <item>01</item>        
+    </string-array>
+    
+    <string-array name="vcIconOptions">
+        <item>Select Card</item>
+        <item>Loyalty Card</item>
+        <item>Transport Card</item>
+        <item>Access Card</item>
+    </string-array>
+    
+    <string-array name="vcDesfCrypto">
+        <item>(3)DES</item>
+        <item>3K3DES</item>
+        <item>AES</item>               
+    </string-array>
+    <string-array name="vcDesfCryptoValues">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+    </string-array>
+</resources>

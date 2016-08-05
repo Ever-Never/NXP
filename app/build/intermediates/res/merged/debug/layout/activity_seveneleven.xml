@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:paddingBottom="@dimen/activity_vertical_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_top_margin" >
+
+    <include 
+        android:id="@+id/ll_conn_device"
+        layout="@layout/device_info"/>
+    
+	<ImageView
+	    android:id="@+id/promo_image"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/seven_eleven"
+	    android:contentDescription="@string/image"
+	    android:layout_below="@id/ll_conn_device" />
+	
+	<TextView
+	    android:id="@+id/promo_points_1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/promo_image"
+	    android:layout_centerHorizontal="true"
+	    android:paddingTop="20dp"
+	    android:text="@string/get_card"
+	    android:textSize="20sp"
+	    android:textColor="@android:color/white" />
+	
+	<TextView
+	    android:id="@+id/promo_points_2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/promo_points_1"
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/get_double_points"
+	    android:textSize="22sp"
+	    android:textStyle="bold"
+	    android:textColor="@android:color/white" />
+	
+	 <LinearLayout
+        android:id="@+id/layout_create_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/promo_points_2" >
+
+        <TextView
+            android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edit_first_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:inputType="textNoSuggestions" />
+
+        <TextView
+            android:id="@+id/last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/last_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edit_last_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:inputType="textNoSuggestions" />
+    </LinearLayout>
+	
+	<Button
+	    android:id="@+id/button_create_seleven"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:background="@drawable/image_background"
+	    android:text="@string/button_personalize_card"
+	    android:textColor="@color/green" />
+</RelativeLayout>

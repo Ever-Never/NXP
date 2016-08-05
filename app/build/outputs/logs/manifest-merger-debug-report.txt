@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:5:5-31
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.NFC
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:12:22-59
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:15:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:21:5-74
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:21:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:22:22-78
+application
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:24:5-62:19
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:24:82-114
+	android:allowBackup
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:24:18-44
+	android:icon
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:24:45-81
+	android:theme
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:24:115-146
+activity#com.nxp.nxpwalletconndev.activities.SplashActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:25:9-30:20
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:25:118-154
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:25:85-117
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:25:19-84
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:28:27-74
+activity#com.nxp.nxpwalletconndev.activities.MainActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:32:9-154
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:32:116-152
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:32:83-115
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:32:19-82
+activity#com.nxp.nxpwalletconndev.activities.AboutActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:33:9-155
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:33:117-153
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:33:84-116
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:33:19-83
+activity#com.nxp.nxpwalletconndev.activities.PaymentCardActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:34:9-165
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:34:127-163
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:34:90-126
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:34:19-89
+activity#com.nxp.nxpwalletconndev.activities.LoginActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:35:9-157
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:35:119-155
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:35:84-118
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:35:19-83
+activity#com.nxp.nxpwalletconndev.activities.LogoutActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:36:9-166
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:36:128-164
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:36:85-127
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:36:19-84
+activity#com.nxp.nxpwalletconndev.activities.AddUserActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:37:9-157
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:37:119-155
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:37:86-118
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:37:19-85
+activity#com.nxp.nxpwalletconndev.activities.InfoUserActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:38:9-158
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:38:120-156
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:38:87-119
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:38:19-86
+activity#com.nxp.nxpwalletconndev.activities.MyDevicesActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:39:9-165
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:39:127-163
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:39:88-126
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:39:19-87
+activity#com.nxp.nxpwalletconndev.activities.MyCardsActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:40:9-164
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:40:126-162
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:40:86-125
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:40:19-85
+activity#com.nxp.nxpwalletconndev.activities.InfoCardActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:41:9-164
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:41:126-162
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:41:87-125
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:41:19-86
+activity#com.nxp.nxpwalletconndev.activities.LoyaltyActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:42:9-161
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:42:123-159
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:42:86-122
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:42:19-85
+activity#com.nxp.nxpwalletconndev.activities.HyattActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:45:9-164
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:45:125-161
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:45:84-124
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:45:19-83
+activity#com.nxp.nxpwalletconndev.activities.TransportKioskActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:48:9-171
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:48:132-168
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:48:93-131
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:48:19-92
+activity#com.nxp.nxpwalletconndev.activities.SevenElevenActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:51:9-166
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:51:127-163
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:51:90-126
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:51:19-89
+activity#com.nxp.nxpwalletconndev.activities.PayInActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:54:9-156
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:54:117-153
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:54:84-116
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:54:19-83
+activity#com.nxp.nxpwalletconndev.activities.MyMifareCreateVCActivity
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:57:9-172
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:57:133-169
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:57:95-132
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:57:19-94
+activity#com.nxp.ssdp.btclient.BluetoothDiscovery
+ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:60:9-61:90
+	android:screenOrientation
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:61:13-49
+	android:label
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:60:75-107
+	android:theme
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:61:50-87
+	android:name
+		ADDED from /home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/AndroidManifest.xml:60:19-74

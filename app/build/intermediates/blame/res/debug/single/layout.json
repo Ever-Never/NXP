@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_personalize_card.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_personalize_card.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_mymifareapp_createvc.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_mymifareapp_createvc.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/ble_device_name.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/ble_device_name.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_info_user.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_info_user.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_transportkiosk.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_transportkiosk.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_my_cards.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_my_cards.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/hotel.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/hotel.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/ble_device_list.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/ble_device_list.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/purchase.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/purchase.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/list_card_entry.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/list_card_entry.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/device_info.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/device_info.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_info_card.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_info_card.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/loyalty_entry.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/loyalty_entry.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/list_transaction_entry.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/list_transaction_entry.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_payin.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_payin.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/ticketing.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/ticketing.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/list_device_entry.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/list_device_entry.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/ble_listitem_device.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/ble_listitem_device.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/subpurchase.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/subpurchase.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_loyalty.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_loyalty.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/list_profile_entry.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/list_profile_entry.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_my_devices.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_my_devices.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_logout.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_logout.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_add_user.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_add_user.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/credit_card.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/credit_card.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_add_card.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_add_card.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_hyatt.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_hyatt.xml"
+    },
+    {
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_seveneleven.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_seveneleven.xml"
+    }
+]
