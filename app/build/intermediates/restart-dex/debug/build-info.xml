@@ -2,31 +2,36 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="22"
-    density="xxxhdpi"
+    density="xxhdpi"
     format="7"
-    timestamp="8771918138767" >
+    timestamp="20708887452564" >
 
     <task
         name="javac"
-        duration="4080" />
+        duration="1422" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="54" />
+        duration="9" />
     <task
         name="verifier"
-        duration="60" />
+        duration="1" />
 
     <artifact
-        location="/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
 
-    <build timestamp="8771918138767" >
+    <build timestamp="20571743570958" >
         <artifact
             location="/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="20708887452564" >
+        <artifact
+            location="/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

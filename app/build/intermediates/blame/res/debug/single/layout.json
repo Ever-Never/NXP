@@ -80,16 +80,16 @@
         "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/ble_listitem_device.xml"
     },
     {
-        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/subpurchase.xml",
-        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/subpurchase.xml"
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/list_profile_entry.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/list_profile_entry.xml"
     },
     {
         "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_loyalty.xml",
         "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/activity_loyalty.xml"
     },
     {
-        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/list_profile_entry.xml",
-        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/list_profile_entry.xml"
+        "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/subpurchase.xml",
+        "source": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/src/main/res/layout/subpurchase.xml"
     },
     {
         "merged": "/home/pranav/PROJECTS/RADIIUS/TRYOUTS/NXP/app/build/intermediates/res/merged/debug/layout/activity_my_devices.xml",

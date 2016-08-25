@@ -434,7 +434,14 @@ public class BaseActivity extends Activity implements OnBluetoothConnectListener
 							}		    		
 				    	} else {
 				    		Log.d(TAG, "Received Data: " + Parsers.arrayToHex(mBufferDataCmd));
-				    		
+
+				    		Log.d(TAG, "Received Data String: " + new String(mBufferDataCmd).toString());
+
+				    		StringBuilder sb = new StringBuilder();
+	                        for (byte b : mBufferDataCmd) {
+	                            sb.append(String.format("%02X ", b));
+	                        }
+	                        Log.e(TAG, "RECEIVED DATA+++++++++++++++++++++++++++++++= "+sb.toString());
 				    		// Operation completed on the Connected Device
 			    			MyPreferences.setCardOperationOngoing(getApplicationContext(), false);
 			    			
@@ -471,7 +478,7 @@ public class BaseActivity extends Activity implements OnBluetoothConnectListener
 		    	if(counterAck != null)
 		    		counterAck.cancel();
 		    		
-		    	counterAck = new CountDownTimer(TIMER_BLE_ACK_RX, 1000) {
+		    	counterAck = new CountDownTimer(TIMER_BLE_ACK_RX, 5000) {
 					@Override
 					public void onFinish() {
 						Log.d(TAG, "ACK Counter fired");

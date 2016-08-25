@@ -266,20 +266,12 @@ public class PaymentCardActivity extends BaseActivity implements OnActivateResul
                    public void onClick(DialogInterface dialog, int id) {
                 	   //createCard();
 					   //////////////////////////////////////////////////////////////
-					   //new GetVersionTask(AboutActivity.this).execute();
-					   String script = "createSD.txt";
-					   new GetVersionTask(PaymentCardActivity.this).execute();
-					   byte[] enableWiredModeTLV = BluetoothTLV.getTlvCommand(BluetoothTLV.WIRED_MODE_ENABLE, new byte[] {0x00} );
+					   //byte[] enableWiredModeTLV = BluetoothTLV.getTlvCommand(BluetoothTLV.WIRED_MODE_ENABLE, new byte[] {0x00} );
 					   //apduListener.sendApduToSE(enableWiredModeTLV, 4000);
-					   StringBuilder sb = new StringBuilder();
-					   for (byte b : enableWiredModeTLV) {
-						   sb.append(String.format("%02X ", b));
-					   }
-					   Log.e(TAG, "RECEIVED DATA+++++++++++++++++++++++++++++++= "+sb.toString());
-					   AsyncTask<?, ?, ?> task = new ExecuteScriptTask(PaymentCardActivity.this, script).execute();
-					   setRunningAsyncTask(task);
+					   //runScript("createSD.txt");
+					   //runScript("select.txt");
+					   runScript("select_APDU.txt");
 					   //byte[] disableWiredModeTLV = BluetoothTLV.getTlvCommand(BluetoothTLV.WIRED_MODE_DISABLE, new byte[] {0x00} );
-
 					   //////////////////////////////////////////////////////////////
                        dialog.dismiss();
                    }
@@ -289,6 +281,19 @@ public class PaymentCardActivity extends BaseActivity implements OnActivateResul
         builder.create();
         builder.show();
 		
+	}
+
+	private void runScript(String script){
+		AsyncTask<?, ?, ?> task = new ExecuteScriptTask(PaymentCardActivity.this, script).execute();
+		setRunningAsyncTask(task);
+	}
+
+	private void printData(byte[] data){
+		StringBuilder sb = new StringBuilder();
+		for (byte b : data) {
+			sb.append(String.format("%02X ", b));
+		}
+		Log.e(TAG, "RECEIVED DATA+++++++++++++++++++++++++++++++= "+sb.toString());
 	}
 	
 	private void createCard() {	
